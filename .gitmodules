@@ -1,21 +1,28 @@
 [submodule "manufacture"]
 	path = manufacture
 	url = http://github.com/oca/manufacture
+    branch = 11.0
 [submodule "server-tools"]
 	path = server-tools
 	url = http://github.com/oca/server-tools
+    branch = 11.0
 [submodule "purchase-workflow"]
 	path = purchase-workflow
 	url = http://github.com/oca/purchase-workflow
+    branch = 11.0
 [submodule "stock-logistic-warehouse"]
 	path = stock-logistic-warehouse
 	url = http://github.com/oca/stock-logistic-warehouse
+    branch = 11.0
 [submodule "server-ux"]
 	path = server-ux
 	url = http://github.com/oca/server-ux
+    branch = 11.0
 [submodule "ddmrp"]
 	path = ddmrp
 	url = http://github.com/oca/ddmrp
+    branch = 11.0
 [submodule "stock-logistics-workflow"]
 	path = stock-logistics-workflow
 	url = http://github.com/oca/stock-logistics-workflow
+    branch = 11.0
