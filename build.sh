@@ -16,6 +16,6 @@ do
     fi
 
 done
-cat $cwd/requirements.txt >> dist/requirements.txt
+cat $cwd/requirements.txt > dist/requirements.txt
 rm dist/oca_dependencies.txt
 rm dist/README.md
