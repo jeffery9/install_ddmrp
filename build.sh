@@ -2,6 +2,8 @@
 cwd=`pwd`
 echo 'bokeh-0.12.7' > $cwd/requirements.txt
 
+git submodule update --checkout
+
 repos=`find . -name .git -type f`
 for repo in $repos
 do 
@@ -16,6 +18,7 @@ do
     fi
 
 done
-cat $cwd/requirements.txt > dist/requirements.txt
-rm dist/oca_dependencies.txt
-rm dist/README.md
+cat $cwd/requirements.txt > $cwd/dist/requirements.txt
+rm $cwd/dist/oca_dependencies.txt
+rm $cwd/dist/README.md
+rm -rf $cwd/dist/setup
