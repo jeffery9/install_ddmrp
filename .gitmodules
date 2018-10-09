@@ -26,3 +26,7 @@
 	path = stock-logistics-workflow
 	url = http://github.com/oca/stock-logistics-workflow
     branch = 11.0
+[submodule "manufacture-reporting"]
+	path = manufacture-reporting
+	url = https://github.com/OCA/manufacture-reporting.git
+    branch = 11.0
