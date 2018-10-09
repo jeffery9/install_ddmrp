@@ -1,0 +1,6 @@
+bokeh-0.12.7
+checksumdir
+raven
+pysftp
+acme_tiny
+IPy
