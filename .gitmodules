@@ -10,17 +10,9 @@
 	path = purchase-workflow
 	url = http://github.com/oca/purchase-workflow
     branch = 11.0
-[submodule "stock-logistic-warehouse"]
-	path = stock-logistic-warehouse
-	url = http://github.com/oca/stock-logistic-warehouse
-    branch = 11.0
 [submodule "server-ux"]
 	path = server-ux
 	url = http://github.com/oca/server-ux
-    branch = 11.0
-[submodule "ddmrp"]
-	path = ddmrp
-	url = http://github.com/oca/ddmrp
     branch = 11.0
 [submodule "stock-logistics-workflow"]
 	path = stock-logistics-workflow
@@ -30,3 +22,9 @@
 	path = manufacture-reporting
 	url = https://github.com/OCA/manufacture-reporting.git
     branch = 11.0
+[submodule "stock-logistics-warehouse"]
+	path = stock-logistics-warehouse
+	url = https://github.com/OCA/stock-logistics-warehouse.git
+[submodule "ddmrp"]
+	path = ddmrp
+	url = https://github.com/Eficent/ddmrp.git
